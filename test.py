@@ -70,10 +70,11 @@ def test_division():
     input_num2 = 0
     expected_output = "Erreur : Division par zéro"
     try:
-        assert division(input_num1,input_num2) == expected_output
-        print("Test case 4 failed.")
-    except AssertionError:
-        print("Test case 4 passed.")
+        division(input_num1,input_num2)
+    except TypeError:
+        print('Test case 3 passed.')
+    else:
+        print('Test case 3 failed.')
         
 def test_addition():
             

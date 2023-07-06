@@ -13,4 +13,4 @@ def division(a, b):
     if b != 0:
         return a / b
     else:
-        return "Erreur : division par zéro"
+        raise  TypeError('"Erreur : division par zéro"')
