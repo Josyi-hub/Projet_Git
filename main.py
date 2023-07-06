@@ -3,6 +3,7 @@ from fonctions import *
 quitter = 1
 while quitter == 1:
     try:
+        print('====MENU===')
         a = float(input("Entrer le premier nombre :"))
         b = float(input("Entrer le deuxieme nombre :"))
         print('====MENU===')
