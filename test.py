@@ -88,7 +88,7 @@ def test_addition():
          # Test avec le nombre nul 
     input_num1 = 15
     input_num2 = 0
-    expected_output = 0
+    expected_output = 15
     
     assert addition(input_num1,input_num2) == expected_output
        
