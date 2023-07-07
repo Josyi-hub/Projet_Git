@@ -14,3 +14,9 @@ def division(a, b):
         return a / b
     else:
         raise  TypeError('"Erreur : division par zéro"')
+
+def puissance(a,n):
+    try:
+        return a**n
+    except TypeError:
+        return "Les entree doivent etre des nombres"

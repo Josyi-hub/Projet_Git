@@ -120,4 +120,30 @@ def test_soustraction():
     
     assert soustraction(input_num1,input_num2) == expected_output
         
+
+def test_puissance():
+            
+         # Test avec 1
+    input_num1 = 10
+    input_num2 = 0
+    expected_output = 1
+    
+    assert puissance(input_num1,input_num2) == expected_output
        
+        
+        
+         # Test avec des nombres positifs
+    input_num1 = 2
+    input_num2 = 2
+    expected_output = 4
+    
+    assert puissance(input_num1,input_num2) == expected_output
+        
+        
+         # Test avec le nombre nul 
+    input_num1 = 15
+    input_num2 = "q"
+    expected_output = "Les entree doivent etre des nombres"
+    
+    assert puissance(input_num1,input_num2) == expected_output
+        
